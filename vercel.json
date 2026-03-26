@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "*.html", "use": "@vercel/static" }
+  ]
+}
+```
+
+---
+
+**Step 3 — Push both files to GitHub**
+Your GitHub repo should now have exactly:
+```
+your-repo/
+├── index.html
+└── vercel.json
